@@ -1,0 +1,3 @@
+cargo build --bin stacks-inspect --release && target/release/stacks-inspect try-mine /home/greg/spaces 2> /log/try-mine.10
+
+
