@@ -28,8 +28,8 @@ marf_reads_this_tx = 0
 total_marf_time = 0.0
 total_processing_time = 0.0
 for line in lines:
-    marf_key = "MarfConnection::get"
-    # marf_key = "MARF::get_by_key"
+    # marf_key = "MarfConnection::get"
+    marf_key = "MARF::get_by_key"
     if marf_key in line:
         marf_reads_this_tx += 1
         time_part = line.split('time_cost=')[1].split(')')[0]
@@ -58,6 +58,8 @@ for line in lines:
 
         pass
     else:
-        print('line not recognized:', line)
+        # allow unrecognized lines now
+        pass
 
-print('total_processing_time', total_processing_time, 'total_marf_time', total_marf_time)
+total_marf_fraction = total_marf_time / total_processing_time
+print('total_processing_time', total_processing_time, 'total_marf_time', total_marf_time, 'total_marf_fraction', total_marf_fraction)
