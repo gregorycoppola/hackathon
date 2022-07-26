@@ -71,4 +71,4 @@ curr_tx 68 marf_reads_this_tx 261 time_part 0.9450353850000001 total_marf_time 0
 curr_tx 69 marf_reads_this_tx 234 time_part 1.059263272 total_marf_time 0.008545264000000006 marf_fraction 0.008067176712230995
 curr_tx 70 marf_reads_this_tx 363 time_part 2.022289799 total_marf_time 0.010801035 marf_fraction 0.005340992673424448
 curr_tx 71 marf_reads_this_tx 339 time_part 1.955201549 total_marf_time 0.009049331999999992 marf_fraction 0.0046283371679141354
-total_processing_time 16.331009182000003 total_marf_time 0.0011823659999999998
+total_processing_time 16.331009182000003 total_marf_time 0.0011823659999999998 total_marf_fraction 7.240005726671201e-05
